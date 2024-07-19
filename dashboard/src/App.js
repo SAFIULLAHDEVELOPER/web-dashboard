@@ -1,10 +1,9 @@
-import "./App.css";
-import Sidebar from "./Sidebar";
-import Home from "./Home";
-import Order from "./Order";
-import Contact from "./Contact";
+import Sidebar from "./screens/sidebar/Sidebar";
+import Home from "./screens/home/Home";
+import Order from "./screens/order/Order";
+import About from "./screens/about/About";
+import Contact from "./screens/contact/Contact"
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import About from "./About";
 
 function App() {
   return (
